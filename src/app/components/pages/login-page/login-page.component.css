@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 3.3rem);
+  background-image: url(../../../../assets/food_fusion_login.webp);
+}
+.details{
+  min-width: 20%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error-list{
+  color: red;
+}
+
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
